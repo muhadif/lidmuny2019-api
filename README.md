@@ -8,4 +8,29 @@
 | `/jsonapi/node/article/` | `GET` | Get all article or news |  |
 | `/jsonapi/node/article/{id}` | `GET` | Get spesific article or news | `id` |
 
+#EXAMPLE
+##Get ALL ANNOUNCEMENT
+1. request 
+  `/jsonapi/node/announcement`
+2. response
+'''json
+{
+"jsonapi": {
+"version": "1.0",
+"meta": {
+"links": {
+"self": {
+"href": "http://jsonapi.org/format/1.0/"
+}
+}
+}
+},
+"data": [],
+"links": {
+"self": {
+"href": "http://lidm2019.uny.ac.id/jsonapi/node/Article"
+}
+}
+}
+'''
 
