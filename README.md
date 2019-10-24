@@ -13,7 +13,7 @@
 1. request 
   `/jsonapi/node/announcement`
 2. response
-'''json
+```javacript
 {
 "jsonapi": {
 "version": "1.0",
@@ -32,5 +32,5 @@
 }
 }
 }
-'''
+```
 
