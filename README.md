@@ -1,9 +1,9 @@
 # LIDMUNY2019-API
 ## Usage
+Base : `http://lidm2019.uny.ac.id/api/v1/`
 
 | Route | HTTP Verb | Description | Required Parameter | Optional Parameter |
 |---|---|---|---|---|
-| `/jsonapi/node/announcement` | `GET` | Get all announcemet |  | 
-| `/jsonapi/node/announcement/{id}` | `GET` | Get spesific annoucement | `id` | 
-| `/jsonapi/node/article/` | `GET` | Get all article or news |  |
-| `/jsonapi/node/article/{id}` | `GET` | Get spesific article or news | `id` |
+| `news` | `GET` | Get all news |  | 
+| `announcement` | `GET` | Get all article or announcement |  |
+
